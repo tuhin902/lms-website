@@ -1,0 +1,65 @@
+.container {
+  height: 100px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+.logo {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.login,
+.signup {
+  padding: 10px;
+  cursor: pointer;
+  min-width: 122px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.menuButton {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+    cursor: pointer;
+  }
+  .buttons {
+    display: none;
+  }
+  .mobileButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .mobileNav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: calc(100vh - 100px);
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
