@@ -1,0 +1,164 @@
+.container {
+  width: 100%;
+  height: 505px;
+  background-color: #330c2f;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  gap: 100px;
+}
+
+.leftSideContainer {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+.rightSideContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSideTitle {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+  padding: 0 30px 0 0;
+  border-bottom: 3px solid white;
+}
+
+.leftSide {
+  display: flex;
+  gap: 100px;
+  padding: 20px 20px;
+}
+
+.texts > p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paymentTitle {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+  padding: 0 30px 0 0;
+}
+
+.paymentContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bkashContainer {
+  width: 70px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 45px;
+  align-items: center;
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.visaicon {
+  display: flex;
+  width: 70px;
+  height: 38px;
+  padding: 5px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.anothermethod {
+  display: flex;
+  width: 56px;
+  height: 38px;
+  padding: 7px 7px;
+  align-items: center;
+  gap: -4.3px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.paypalicon {
+  display: flex;
+  width: 106px;
+  height: 38px;
+  padding: 5px 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navitems {
+  display: flex;
+  gap: 50px;
+}
+
+.navitems ul li Link {
+    
+}
+
+.rightText {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+  padding: 0 30px 10px 30px;
+  border-bottom: 3px solid white;
+}
+
+.socialMediaContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.dowloadText {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.googlepay {
+  display: flex;
+  gap: 10px;
+}
+
+.bottomtext {
+  color: rgba(255, 255, 255, 0.8);
+
+  text-align: center;
+  font-family: Kanit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
