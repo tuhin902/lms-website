@@ -25,7 +25,12 @@
   font-weight: 400;
   line-height: normal;
 }
-
+.afterlogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .login,
 .signup {
   padding: 10px;
@@ -40,8 +45,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  
-
   .links {
     display: none;
   }
@@ -67,11 +70,12 @@
     padding-top: 10px;
     padding-bottom: 30px;
     height: calc(100vh - 100px);
-    background-color: var(--bg);
+    background-color: #e4d9ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    z-index: 1;
   }
 }
