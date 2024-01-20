@@ -1,0 +1,101 @@
+.card {
+  width: 300px;
+  height: 372px;
+  margin: auto;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.cardimg {
+  width: 300px;
+  height: 220px;
+  position: relative;
+}
+
+.cardDetails {
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.cardDetails h2 {
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Kantumruy;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cardDetails p {
+  color: #000;
+  font-family: Kantumruy;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.offerprice {
+  color: #cd4d6d;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 21px;
+}
+
+.beforeprice {
+  color: #000;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 115px;
+    height: 143px;
+    margin-bottom: 10px;
+    margin: auto;
+  }
+
+  .cardimg {
+    width: 115px;
+    height: 85px;
+  }
+
+  .cardDetails {
+    margin-top: 6px;
+    margin-left: 10px;
+  }
+
+  .cardDetails h2 {
+    margin-bottom: 3px;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .cardDetails p {
+    font-size: 8px;
+    margin-bottom: 3px;
+  }
+
+  .offerprice {
+    font-size: 8px;
+    margin-right: 8px;
+  }
+
+  .beforeprice {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,82 @@
+.container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texttitle {
+  color: #000;
+  font-family: Kantumruy;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.coursesearchfield {
+  width: 367px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 100px;
+  background: #d9d9d9;
+  position: relative;
+}
+
+.coursesearch {
+  background: #d9d9d9;
+  padding-left: 10px;
+  border-radius: 100px;
+  border: none;
+  width: 367px;
+  height: 46px;
+}
+
+.cardContainer {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    /* width: 80vw;
+    margin: auto; */
+    margin-top: 15px;
+  }
+
+  .textContainer {
+    flex-direction: column-reverse;
+  }
+
+  .texttitle {
+    margin-top: 11px;
+    font-size: 12px;
+  }
+
+  .coursesearchfield {
+    width: 224px;
+    height: 35px;
+  }
+
+  .coursesearch {
+    width: 224px;
+    height: 35px;
+  }
+
+  .cardContainer {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+    /* gap: 10px; */
+  }
+}
