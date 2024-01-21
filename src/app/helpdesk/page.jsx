@@ -1,5 +1,11 @@
+import Helpdesk from "@/components/helpdesk/helpdesk";
+
 const HelpDeskPage = () => {
-  return <div>HelpDeskPage</div>;
+  return (
+    <div>
+      <Helpdesk />
+    </div>
+  );
 };
 
 export default HelpDeskPage;

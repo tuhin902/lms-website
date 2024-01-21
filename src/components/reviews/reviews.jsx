@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./reviews.module.css";
 import Reviewcard from "../reviewcard/reviewcard";
+import Yourfeedback from "../yourfeedback/yourfeedback";
 const Reviews = () => {
   const reviews = [
     {
@@ -113,6 +114,7 @@ const Reviews = () => {
             <Reviewcard review={review} key={review.id} />
           ))}
         </div>
+        {session && <Yourfeedback />}
       </div>
     </div>
   );

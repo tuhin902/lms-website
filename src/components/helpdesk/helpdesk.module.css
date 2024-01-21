@@ -1,0 +1,173 @@
+.container {
+  background: #e4d9ff;
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+
+.desktitlecontainer {
+  height: 121px;
+  background: #ffe5ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 47px;
+}
+
+.desktitle {
+  color: #4b4e6d;
+  font-family: Kantumruy;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.createpostcontainer {
+  width: 1030px;
+  height: 241px;
+  margin: auto;
+  border-radius: 20px;
+  background: #ffe5ec;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.posttop {
+  display: flex;
+  gap: 34px;
+  padding-top: 61px;
+  margin-left: 57px;
+}
+
+.postimg {
+  width: 74px;
+  height: 74px;
+  position: relative;
+}
+
+.psotinput {
+  width: 780px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #d9d9d9;
+  padding-left: 49px;
+}
+
+.psotinput::placeholder {
+  color: #fffcfc;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.postbottom {
+  display: flex;
+  justify-content: end;
+  margin-top: 34px;
+}
+
+.galleryicon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.gallerytext {
+  position: absolute;
+  top: 16px;
+  right: -100px;
+}
+.creatbutton {
+  width: 171px;
+  height: 42px;
+  border-radius: 10px;
+  background: #7435de;
+  color: #fff;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 120px;
+  margin-right: 105px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-top: 16px;
+
+    padding-bottom: 20px;
+  }
+
+  .desktitlecontainer {
+    height: 31px;
+    margin-bottom: 9px;
+  }
+
+  .desktitle {
+    font-size: 16px;
+  }
+
+  .createpostcontainer {
+    width: 100%;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+    border-radius: 20px;
+  }
+
+  .posttop {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding-top: 10px;
+    margin-left: 0px;
+  }
+
+  .postimg {
+    width: 46px;
+    height: 46px;
+  }
+
+  .psotinput {
+    width: 309px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 0px;
+  }
+
+  .psotinput::placeholder {
+    font-size: 12px;
+  }
+
+  .postbottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+  }
+
+  .galleryicon {
+    width: 20px;
+    height: 20px;
+    margin-left: 55px;
+  }
+
+  .gallerytext {
+    position: absolute;
+    top: 3px;
+    right: -63px;
+    font-size: 10px;
+  }
+  .creatbutton {
+    width: 90px;
+    height: 18px;
+    font-size: 10px;
+    margin-left: 0px;
+    margin-right: 67px;
+  }
+}
