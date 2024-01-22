@@ -1,0 +1,276 @@
+.loginpage {
+  padding: 103px 0 106px 0;
+  background: linear-gradient(147deg, #6c1daa 33.1%, #e4d9ff 95.88%);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logincontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.formleft {
+  width: 568px;
+  height: 826px;
+  border-radius: 40px var(--Premitive-premitive-premitive-s, 0px)
+    var(--Premitive-premitive-premitive-s, 0px) 40px;
+  background: #e4d9ff;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.formright {
+  width: 594px;
+  height: 826px;
+  border-radius: var(--Premitive-premitive-premitive-s, 0px) 40px 40px
+    var(--Premitive-premitive-premitive-s, 0px);
+  background: #e4d9ff;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.loginimg {
+  width: 393px;
+  height: 370px;
+  position: relative;
+}
+
+.group1 {
+  width: 122px;
+  height: 81px;
+  position: absolute;
+  top: 40px;
+  left: 55px;
+}
+.group2 {
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  bottom: 24px;
+  right: 37px;
+}
+
+.formtop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 93px;
+  margin-right: 82px;
+  margin-top: 63px;
+}
+
+.loginlogo {
+  width: 150px;
+  height: 50px;
+  position: relative;
+}
+
+.registerbtn {
+  width: 102px;
+  height: 26px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 93px;
+  margin-right: 82px;
+  margin-top: 63px;
+}
+
+.logintext {
+  color: #000;
+  font-family: Kantumruy;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.form label {
+  color: #95a3b3;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  margin-top: 17px;
+}
+
+.form input {
+  width: 418px;
+  height: 48px;
+  fill: #fff;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  margin-top: 12px;
+  padding-left: 19px;
+}
+.form input::placeholder {
+  color: #000;
+  font-family: Kantumruy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.forgetpass {
+  color: #7067cf;
+  text-align: end;
+  font-family: Kantumruy;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 28px;
+}
+
+.loginbtn {
+  width: 418px;
+  height: 48px;
+
+  color: #fff;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 50px;
+  margin-top: 25px;
+  background-image: linear-gradient(90deg, #5b1faf -6.73%, #7031d6 50.26%);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+@media only screen and (max-width: 768px) {
+  .loginpage {
+    padding: 19px 25px 19px 25px;
+  }
+
+  .logincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formleft {
+    width: 311px;
+    height: 248px;
+    border-radius: 40px var(--Premitive-premitive-premitive-s, 40px)
+      var(--Premitive-premitive-premitive-s, 0px) 0px;
+  }
+
+  .formright {
+    width: 311px;
+    height: 355px;
+    border-radius: var(--Premitive-premitive-premitive-s, 0px)
+      var(--Premitive-premitive-premitive-s, 0px) 10px 10px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .loginimg {
+    width: 165px;
+    height: 155px;
+  }
+
+  .group1 {
+    width: 57px;
+    height: 38px;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+  }
+  .group2 {
+    display: none;
+  }
+
+  .formtop {
+    display: none;
+  }
+
+  /* .loginlogo {
+    width: 150px;
+    height: 50px;
+    position: relative;
+  } */
+
+  /* .registerbtn {
+    width: 102px;
+    height: 26px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    text-align: center;
+    font-family: Kantumruy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  } */
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    margin-right: 61px;
+    margin-top: 25px;
+  }
+
+  .logintext {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .form label {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .form input {
+    width: 230px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 6px;
+  }
+  .form input::placeholder {
+    font-size: 10px;
+  }
+
+  .forgetpass {
+    text-align: start;
+    font-size: 12px;
+    margin-top: 13px;
+  }
+
+  .loginbtncontainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .loginbtn {
+    width: 81px;
+    height: 27px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+}
