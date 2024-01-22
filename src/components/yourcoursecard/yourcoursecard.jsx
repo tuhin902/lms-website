@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./yourcoursecard.module.css";
+import Link from "next/link";
 const Yourcoursecard = () => {
   return (
     <div className={styles.yourcoursecard}>
@@ -25,7 +26,9 @@ const Yourcoursecard = () => {
           Videos 100
         </p>
         <p className={styles.courseduration}>8h 35m </p>
-        <button className={styles.continuebtn}>Continue</button>
+        <Link href="/coursevideo">
+          <button className={styles.continuebtn}>Continue</button>
+        </Link>
       </div>
     </div>
   );
