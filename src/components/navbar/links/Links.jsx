@@ -28,13 +28,17 @@ const Links = () => {
       title: "Help Desk",
       path: "/helpdesk",
     },
+    {
+      title: "My Course",
+      path: "/mycourse",
+    },
   ];
 
   return (
     <div className={styles.container}>
       <div className={styles.links}>
         {links.map((link) => (
-         <Navlink item={link} key={link.title} />
+          <Navlink item={link} key={link.title} />
         ))}
       </div>
     </div>

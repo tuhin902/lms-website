@@ -1,0 +1,322 @@
+.mycoursecontainer {
+  width: 100%;
+  padding-bottom: 50px;
+  background-image: linear-gradient(133deg, #6c1daa -0.01%, #e4d9ff 136.76%);
+  background: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.25));
+}
+
+.welcometext {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 78px;
+  margin-bottom: 93px;
+}
+
+.username {
+  color: #fec90e;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.topbtn {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: auto;
+}
+.yourcoursebtn {
+  width: 296px;
+  height: 56px;
+  border-radius: 30px 30px 0px 0px;
+  border-top: 4px solid #e4d9ff;
+  border-right: 4px solid #e4d9ff;
+  border-left: 4px solid #e4d9ff;
+  background: rgba(217, 217, 217, 0.16);
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.bookmarks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookmarksbtn {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bookmarksicon {
+  width: 24px;
+  height: 24px;
+}
+
+.topline {
+  width: 90vw;
+  margin: auto;
+  height: 2px;
+  background: #e4d9ff;
+  margin-bottom: 61px;
+}
+
+.coursesection {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+}
+
+.leftside {
+  flex: 2;
+}
+
+.rightside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightsideinput {
+  width: 367px;
+  height: 46px;
+  border-radius: 100px;
+  background: #d9d9d9;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.rightsideinput input {
+  width: 367px;
+  height: 46px;
+  background: transparent;
+  border: none;
+}
+.rightsideinput input::placeholder {
+  color: rgba(38, 50, 56, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.searchicon {
+  width: 24px;
+  height: 24px;
+}
+
+.allcourses {
+  width: 333px;
+  height: 540px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #a87fcf;
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 28px;
+  overflow-y: scroll;
+}
+
+.supportsession {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 55px;
+  width: 90vw;
+  margin: auto;
+}
+
+.sessiontitle {
+  color: #1e2749;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 20px;
+}
+.sessioncontainer {
+  width: 840px;
+  height: 590px;
+  border-radius: 20px;
+  background: rgba(217, 217, 217, 0.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.extraclasstitle {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 32px;
+  padding-top: 15px;
+}
+
+.extraclass {
+  width: 50vw;
+  margin: auto;
+  display: flex;
+  gap: 4px;
+  overflow-x: scroll;
+}
+
+.extraclass::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* .mycoursecontainer {
+    height: 100%;
+  } */
+
+  .welcometext {
+    color: #fff;
+    width: 242px;
+    margin: auto;
+    font-size: 16px;
+    padding-top: 25px;
+    margin-bottom: 60px;
+  }
+  .username {
+    font-size: 16px;
+  }
+
+  .topbtn {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+  }
+  .yourcoursebtn {
+    width: 111px;
+    height: 24px;
+    border-radius: 15px 15px 0px 0px;
+    font-size: 12px;
+    border-top: 1px solid #e4d9ff;
+    border-right: 1px solid #e4d9ff;
+    border-left: 1px solid #e4d9ff;
+  }
+
+  .bookmarksbtn {
+    font-size: 10px;
+  }
+
+  .bookmarksicon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .topline {
+    margin-bottom: 19px;
+  }
+
+  .coursesection {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftside {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rightside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rightsideinput {
+    width: 311px;
+    height: 35px;
+    padding-left: 11px;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .rightsideinput input {
+    width: 311px;
+    height: 35px;
+  }
+  .rightsideinput input::placeholder {
+    font-size: 16px;
+  }
+
+  .searchicon {
+    width: 17px;
+    height: 17px;
+  }
+
+  .allcourses {
+    width: 311px;
+    height: 540px;
+    margin-top: 17px;
+    padding-top: 18px;
+    margin-bottom: 10px;
+  }
+
+  .supportsession {
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+  }
+
+  .sessiontitle {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .sessioncontainer {
+    width: 360px;
+    height: 100%;
+    border-radius: none;
+    background: none;
+    box-shadow: none;
+  }
+
+  .extraclasstitle {
+    font-size: 16px;
+    text-align: center;
+    margin-left: none;
+    padding-top: 5px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .extraclass {
+    width: 100%;
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    overflow-y: scroll;
+  }
+}
