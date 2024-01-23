@@ -3,11 +3,12 @@ import Image from "next/image";
 import Links from "./links/Links";
 import styles from "./navbar.module.css";
 import { useState } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  const session = true;
+  const session = false;
 
   return (
     <div className={styles.container}>
@@ -54,8 +55,17 @@ const Navbar = () => {
           </>
         ) : (
           <>
-            <button className={styles.login}>Login</button>
-            <button className={styles.signup}>Sign Up</button>
+            <Link href="/login">
+              <button className={styles.login}>Login</button>
+            </Link>
+            <Link href="/register">
+              <button className={styles.signup}>Sign Up</button>
+            </Link>
+            <Link href="/customerregister">
+              <button className={styles.signup}>
+                Service operator register
+              </button>
+            </Link>
           </>
         )}
       </div>
@@ -109,13 +119,24 @@ const Navbar = () => {
                         fill="#D1EDDE"
                       />
                     </svg>
-                    <button className={styles.login}>Logout</button>
+                    <Link href="/">
+                      <button className={styles.login}>Logout</button>
+                    </Link>
                   </div>
                 </>
               ) : (
                 <>
-                  <button className={styles.login}>Login</button>
-                  <button className={styles.signup}>Sign Up</button>
+                  <Link href="/login">
+                    <button className={styles.login}>Login</button>
+                  </Link>
+                  <Link href="/register">
+                    <button className={styles.signup}>Sign Up</button>
+                  </Link>
+                  <Link href="/customerregister">
+                    <button className={styles.signup}>
+                      Service operator register
+                    </button>
+                  </Link>
                 </>
               )}
             </div>
