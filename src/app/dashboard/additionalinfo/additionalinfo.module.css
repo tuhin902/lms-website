@@ -1,0 +1,104 @@
+.container {
+  width: 877px;
+  height: 873px;
+  border-radius: 20px;
+  background: #ffe5ec;
+  padding-left: 71px;
+  padding-right: 71px;
+  padding-top: 61px;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.additional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.additionaltext {
+  color: #000;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.profileicon {
+  width: 44px;
+  height: 44px;
+}
+
+.inputcontainer {
+  margin-top: 100px;
+}
+
+.formtop {
+  display: flex;
+  gap: 31px;
+}
+
+.formtop > div label {
+  display: block;
+  color: #000;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.formtop > div input {
+  width: 352px;
+  height: 56px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  border: none;
+  margin-top: 18px;
+}
+
+.formmiddle {
+  display: flex;
+  gap: 31px;
+}
+
+.formmiddle > div label {
+  display: block;
+  color: #000;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+
+.formmiddle > div input {
+  width: 352px;
+  height: 56px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  border: none;
+  margin-top: 18px;
+}
+
+.btncontainer {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.changebtn {
+  width: 171px;
+  height: 42px;
+  border-radius: 10px;
+  background: #7435de;
+  color: #fff;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 50px;
+}

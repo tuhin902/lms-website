@@ -1,0 +1,37 @@
+.container {
+  width: 877px;
+  height: 873px;
+  border-radius: 20px;
+  background: #ffe5ec;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 609px;
+  margin: auto;
+  color: #2d094f;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 31px;
+}
+
+.desc {
+  width: 715px;
+  height: 289px;
+  margin: auto;
+  color: #000;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

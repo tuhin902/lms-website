@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./home.module.css";
 import OurCourses from "@/components/ourcourses/ourcourses";
 import AboutPage from "./aboutus/page";
-import OfflineservicePage from "./offlineservice/page";
+// import OfflineservicePage from "./offlineservice/page";
 import Contactus from "@/components/contactus/contact";
 import OfflineServices from "@/components/offlineservices/offlineservices";
 const Home = () => {

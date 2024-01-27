@@ -1,0 +1,99 @@
+.container {
+  padding-top: 69px;
+  position: relative;
+}
+
+.profileimg {
+  width: 128px;
+  height: 128px;
+  position: relative;
+  border-radius: var(--Premitive-premitive-premitive-s, 128px);
+  margin: auto;
+  margin-bottom: 12px;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.sidelinks {
+  margin-top: 53px;
+}
+.sidelink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+  color: #000;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.name {
+  color: #263238;
+  font-family: Kantumruy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.id {
+  color: #263238;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.number {
+  color: #263238;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.complete {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.complete p {
+  color: #000;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dashbar {
+  border: 2px dashed gray;
+}
+
+.pdfbtn {
+  width: 265px;
+  height: 36px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  color: #000;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -28px;
+  bottom: 22px;
+}
