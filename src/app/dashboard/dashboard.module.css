@@ -35,3 +35,18 @@
   font-weight: 700;
   line-height: normal;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      height: 100%;
+      background-color: #330c2f;
+      color: white;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

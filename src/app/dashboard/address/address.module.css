@@ -164,3 +164,130 @@
   line-height: normal;
   margin-top: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+
+  .address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .addresstext {
+    font-size: 16px;
+  }
+
+  .profileicon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .inputcontainer {
+    margin-top: 30px;
+  }
+
+  .presenttext {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .presenttop {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .presenttop label {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .presenttop input {
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    background: #d9d9d9;
+    border: none;
+    margin-top: 18px;
+    margin-bottom: 27px;
+  }
+  .presentbottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .presentbottom label {
+    font-size: 13px;
+  }
+
+  .presentbottom input {
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 18px;
+    margin-bottom: 27px;
+  }
+
+  .parmanenttext {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .parmanenttop {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .parmanenttop label {
+    font-size: 13px;
+  }
+
+  .parmanenttop input {
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 18pxpx;
+  }
+  .parmanentbottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .parmanentbottom label {
+    font-size: 13px;
+  }
+
+  .parmanentbottom input {
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+
+  .btncontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .changebtn {
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}

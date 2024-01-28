@@ -102,3 +102,91 @@
   line-height: normal;
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    box-shadow: none;
+  }
+
+  .additional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .additionaltext {
+    color: #000;
+    text-align: center;
+    font-family: Kantumruy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .profileicon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .inputcontainer {
+    margin-top: 50px;
+  }
+
+  .formtop {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .formtop > div label {
+    font-size: 12px;
+  }
+
+  .formtop > div input {
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 18px;
+  }
+
+  .formmiddle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .formmiddle > div label {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .formmiddle > div input {
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+  }
+
+  .btncontainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .changebtn {
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+}

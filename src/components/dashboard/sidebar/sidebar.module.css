@@ -97,3 +97,77 @@
   left: -28px;
   bottom: 22px;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-top:40px;
+    position: relative;
+  }
+
+  .profileimg {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 12px;
+  }
+  .sidelinks {
+    margin-top: 40px;
+  }
+  /* .sidelink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    color: #000;
+    text-align: center;
+    font-family: Kantumruy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  } */
+
+  .name {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .id {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .number {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .complete {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  .complete p {
+    color: #000;
+    text-align: center;
+    font-family: Kantumruy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .dashbar {
+    border: 2px dashed gray;
+  }
+
+  .pdfbtn {
+    width: 163px;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+  }
+}

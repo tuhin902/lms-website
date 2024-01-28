@@ -84,3 +84,69 @@
 .uploadimg {
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: 873px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+
+  .Myprofile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .myprofiletext {
+    font-size: 12px;
+  }
+
+  .profileicon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .form {
+    margin-top: 30px;
+  }
+  .formtop {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .formtop > div label {
+    font-size: 12px;
+  }
+  .formtop > div input {
+    width: 309px;
+    height: 30px;
+    margin-top: 18px;
+  }
+
+  .formmiddle {
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+  }
+
+  .formmiddle > div label {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+
+  .formmiddle > div input {
+    width: 309px;
+    height: 30px;
+    margin-top: 18px;
+  }
+
+  .uploadimg {
+    margin-top: 50px;
+  }
+}

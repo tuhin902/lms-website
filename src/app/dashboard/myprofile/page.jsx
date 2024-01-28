@@ -23,7 +23,7 @@ const Myprofile = () => {
         <div>
           <div className={styles.formtop}>
             <div>
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Full Name</label>
               <input type="text" name="name" id="name" required />
             </div>
             <div>

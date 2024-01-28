@@ -69,3 +69,61 @@
   line-height: normal;
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+
+  .education {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .educationtext {
+    font-size: 13px;
+  }
+
+  .profileicon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .inputcontainer {
+    margin-top: 50px;
+  }
+
+  .inputcontainer label {
+    font-size: 13px;
+  }
+
+  .inputcontainer input {
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+
+  .btncontainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .changebtn {
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-top: 50px;
+  }
+}
