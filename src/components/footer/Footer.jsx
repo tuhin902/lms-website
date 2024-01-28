@@ -75,33 +75,22 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-
-            {/* <div className={styles.navitems}>
-            <Link href="/">Home</Link>
-            <Link href="/">Home</Link>
-            <Link href="/">Home</Link>
-            <Link href="/">Home</Link>
-            <Link href="/">Home</Link>
-            <Link href="/">Home</Link>
-            <Link href="/">Home</Link>
-            <Link href="/">Home</Link>
-          </div> */}
           </div>
         </div>
 
-        <div className={styles.rightSideContainer}>
+        <div className={styles.middleSideContainer}>
           <div className={styles.navitems}>
-            <div>
+            <div className={styles.navitem}>
               <Link href="/">Home</Link>
-              <Link href="/">Home</Link>
-              <Link href="/">Home</Link>
-              <Link href="/">Home</Link>
+              <Link href="/">About</Link>
+              <Link href="/">Offline Services</Link>
+              <Link href="/">Contact Us</Link>
             </div>
-            <div>
-              <Link href="/">Home</Link>
-              <Link href="/">Home</Link>
-              <Link href="/">Home</Link>
-              <Link href="/">Home</Link>
+            <div className={styles.navitem}>
+              <Link href="/">Our Donation</Link>
+              <Link href="/">Review</Link>
+              <Link href="/">Donation</Link>
+              <Link href="/">Help Desk</Link>
             </div>
           </div>
         </div>
