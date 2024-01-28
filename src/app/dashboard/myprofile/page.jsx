@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./myprofile.module.css";
 const Myprofile = () => {
   return (
@@ -44,9 +45,37 @@ const Myprofile = () => {
         </div>
         <div className={styles.uploadimg}>
           <h2>Profile Image</h2>
-          <div>
-            <label htmlFor="uploadfield">Upload Field</label>
-            <input type="file" name="uploadfield" id="uploadfield" />
+          <div className={styles.updatedimg}>
+            <Image src="/assets/dashboard/dashboardpic.svg" alt="" fill />
+          </div>
+          <div className={styles.uploadfield}>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className={styles.uploadicon}
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M18.2498 3.50962C18.664 3.50974 19 3.17405 19 2.75984C19 2.34563 18.6644 2.00974 18.2502 2.00962L5.25022 2.00586C4.836 2.00574 4.5 2.34143 4.5 2.75564C4.5 3.16986 4.83557 3.50574 5.24978 3.50586L18.2498 3.50962ZM11.6482 21.9978L11.75 22.0047C12.1297 22.0047 12.4435 21.7225 12.4932 21.3564L12.5 21.2547L12.499 7.56968L16.2208 11.29C16.4871 11.5562 16.9038 11.5804 17.1974 11.3625L17.2815 11.2899C17.5477 11.0236 17.5719 10.6069 17.354 10.3133L17.2814 10.2292L12.2837 5.23262C12.0176 4.96653 11.6012 4.94223 11.3076 5.15979L11.2235 5.23232L6.22003 10.2289C5.92694 10.5216 5.92661 10.9965 6.21931 11.2896C6.48539 11.556 6.90204 11.5805 7.1958 11.3629L7.27997 11.2903L10.999 7.57668L11 21.2547C11 21.6344 11.2822 21.9482 11.6482 21.9978Z"
+                  fill="#212121"
+                />
+              </svg>
+            </span>
+            <label htmlFor="uploadfile" className={styles.uploadtext}>
+              Upload Field
+            </label>
+            <input
+              type="file"
+              name="uploadfile"
+              id="uploadfile"
+              className={styles.uploadfile}
+            />
+          </div>
+        </div>
+        <div>
+          <div className={styles.btncontainer}>
+            <button className={styles.changebtn}>Save Changes</button>
           </div>
         </div>
       </form>

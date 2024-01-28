@@ -85,6 +85,70 @@
   margin-top: 50px;
 }
 
+.uploadimg > h2 {
+  color: #000;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.updatedimg {
+  margin-top: 10px;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  border-radius: var(--Premitive-premitive-premitive-s, 128px);
+}
+
+.uploadfield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  margin-top: 20px;
+}
+.uploadfile {
+  display: none;
+}
+
+.uploadicon {
+  width: 24px;
+  height: 24px;
+}
+
+.uploadtext {
+  color: #000;
+  text-align: center;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+}
+.changebtn {
+  width: 171px;
+  height: 42px;
+  border-radius: 10px;
+  background: #7435de;
+  color: #fff;
+  font-family: Kantumruy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -147,6 +211,63 @@
   }
 
   .uploadimg {
+    margin-top: 30px;
+  }
+
+  .uploadimg > h2 {
+    font-size: 12px;
+  }
+
+  .updatedimg {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .uploadfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background: #d9d9d9;
+    margin-top: 20px;
+  }
+  .uploadfile {
+    display: none;
+  }
+
+  .uploadicon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .uploadtext {
+    color: #000;
+    text-align: center;
+    font-family: Kantumruy;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .btncontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .changebtn {
+    width: 171px;
+    height: 42px;
+    border-radius: 10px;
+    background: #7435de;
+    color: #fff;
+    font-family: Kantumruy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     margin-top: 50px;
   }
 }
